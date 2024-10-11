@@ -1,0 +1,76 @@
+body {
+    margin: 0% 0% 0% 0%;
+    font-family: Arial, sans-serif;
+    color: var(--main-color-text);
+    background-color: var(--light-color-bg);
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+/* Encabezado y Navegación */
+header {
+    background-color: var(--main-bg);
+    color: var(--light-color-text);
+    padding-top: 1%;
+    height: 10%;
+}
+
+#contenido {
+    height: 80%;
+    overflow-y: scroll;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Secciones */
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: var(--main-bg);
+    color: var(--light-color-text);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#sobre-mi img {
+    max-width: 25%;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto;
+}
+
+#habilidades ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 1%;
+    background-color: var(--main-bg);
+    color: var(--light-color-text);
+    height: 10%;
+}
+
+h1 {
+    color: var(--title-color-text);
+}

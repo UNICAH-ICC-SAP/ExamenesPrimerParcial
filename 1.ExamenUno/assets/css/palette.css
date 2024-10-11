@@ -1,0 +1,10 @@
+:root {
+    --main-color-text: #0D0D0D;
+    --light-color-text: #f4f4f4;
+    --main-bg: var(--main-color-text);
+    --secondary-bg: #536673;
+    --light-color-bg: var(--light-color-text);
+    --title-color-text: #8C6826;
+    --subtitle-color-text: #734103;
+    --gray-bg: var(--light-color-bg);
+}
